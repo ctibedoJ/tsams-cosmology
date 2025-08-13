@@ -9,12 +9,7 @@ setup(
     author="Charles Tibedo",
     author_email="charles.tibedo@ninjatech.ai",
     packages=find_packages(),
-    install_requires=[
-        "numpy",
-        "scipy",
-        "matplotlib",
-        "tsams-core",
-    ],
+    install_requires=["numpy", "scipy", "matplotlib"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Science/Research",
